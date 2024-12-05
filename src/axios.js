@@ -1,9 +1,8 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:8000/api/";
-// const baseURL = "https://djsce-project-feedback-portal-server.onrender.com/api";
+// const baseURL = "http://localhost:8000/api/";
+const baseURL = "https://djsce-feedback-portal-server.vercel.app/api";
 
-// const baseURL = "https://feedback-portal.onrender.com/api/";
 const access_token = localStorage.getItem("access_token");
 
 const axiosInstance = axios.create({
