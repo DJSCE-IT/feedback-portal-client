@@ -1,0 +1,64 @@
+@media screen and (max-width: 628px) {
+  .leftQnGap{
+    display: none;
+  }
+
+  .leftQnNum{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*  */
+@media screen and (max-width: 602px) {
+  .teacherDispDiv{
+    text-align: center;
+  }  
+}
+
+/*  */
+.rankNum{
+  display: none;
+} 
+
+#mainHalfDescDiv{
+  display: none;
+}
+
+.halfDescDiv{
+  display: none;
+}
+
+@media screen and (max-width: 602px) {
+  .rankNum{
+    display: block;
+  } 
+  .completeDescDiv > div{
+    display: none;
+  }
+
+  #mainHalfDescDiv{
+    display: block;
+  }
+}
+
+/* Main padding and margin */
+.mainFbDiv{
+  padding: 3rem;
+  margin: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .mainFbDiv{
+    padding: 1.5rem;
+    margin: 1.5rem;
+  } 
+}
+
+@media screen and (max-width: 375px) {
+  .mainFbDiv{
+    padding: 1rem;
+    margin: 1rem;
+  } 
+}

@@ -1,0 +1,21 @@
+.mainContainer{
+  width: 30%!important;
+}
+
+@media screen and (max-width: 1015px) {
+  .mainContainer{
+    width: 45%!important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .mainContainer{
+    width: 70%!important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .mainContainer{
+    width: 80%!important;
+  }
+}

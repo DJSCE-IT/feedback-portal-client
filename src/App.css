@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 400;
+}
+
+.fw-900{
+  font-weight: 900!important;
+}
+
+.fw-900 > *{
+  font-weight: 900!important;
+}
+
+.fw-700{
+  font-weight: 700!important;
+}
+
+.fw-700 > *{
+  font-weight: 700!important;
+}
+
+.fw-400{
+  font-weight: 400!important;
+}
+
+.fw-400 > *{
+  font-weight: 400!important;
+}
+
+.fw-600{
+  font-weight: 600!important;
+}
+
+.fw-600 > *{
+  font-weight: 600!important;
+}
+
+.fw-300{
+  font-weight: 300!important;
+}
+
+.fw-300 > *{
+  font-weight: 300!important;
+}
+
+body {
+  margin: 0;
+}
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+

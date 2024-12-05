@@ -1,0 +1,25 @@
+@media screen and (max-width: 526px) {
+  .topDataBoard{
+    text-align: center;
+  }
+
+  .topDataFlex{
+    justify-content: center;
+  }
+
+  .subNameLink {
+    display: block!important;
+  }
+  .copyIcon{
+    display: block!important;
+    text-align: center!important;
+    /* justify-self: center; */
+  }
+}
+
+.subNameLink{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,14 @@
+.teachDashboardTopBtnContainer{  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .teachDashboardTopBtnContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}

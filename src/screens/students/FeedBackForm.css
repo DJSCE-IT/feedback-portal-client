@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .feedback-options {
+      display: none !important;
+    }
+    
+}
+@media (min-width: 767px) {
+    .small-screen{
+        display: none !important;
+    }
+}

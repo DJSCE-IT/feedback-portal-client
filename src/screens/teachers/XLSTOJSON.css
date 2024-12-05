@@ -1,0 +1,14 @@
+input[type="file"]::file-selector-button {
+  width: 134px;
+  height: 40px;
+  background-color: #10b65c;
+  border-radius: 14px;
+  margin-right: 40px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.rdioBtn div div:nth-child(2) {
+    border-style: hidden !important;
+}

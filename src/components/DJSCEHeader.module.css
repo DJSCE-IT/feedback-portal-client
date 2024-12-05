@@ -1,0 +1,37 @@
+@media (max-width: 625px) {
+  .navbar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .navbarBrand{
+    align-self: flex-start;
+  }
+
+  .navbarBtn{
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 448px) {
+  .navbarFirstHead{
+    text-align: center;
+  }
+
+  .navbarFirstHead{
+    padding-top: 20px;
+    text-align: center!important;
+  }
+  .navbar{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbarBrand{
+    align-self: center;
+  }
+}

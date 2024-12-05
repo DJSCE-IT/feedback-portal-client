@@ -1,0 +1,71 @@
+
+  .wrapperDiv{
+    position: relative;
+  }
+  
+  .icon{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+  }
+
+  .sizeH1{
+    font-size: 60px;
+    
+    text-align: end;
+  }
+  
+  .sizetext{
+    font-size: 20px;
+    text-align: end;
+    font-weight: 400;
+  }
+  
+  .sizeName{
+    font-size: 25px;
+  }
+  .sizeInfo{
+    font-size: 30px;
+  }
+
+  .contactCol{
+    align-items: end;
+  }
+
+  @media screen and (max-width: 780px) {
+    .imgCol{
+      display: none!important;
+    }
+
+    .contactCol{
+      display: flex!important;
+      flex-direction: column!important;
+      justify-content: center!important;
+      align-items: center!important;      
+    }
+    
+    .contactCont{
+      justify-content: center!important;
+    }
+
+    .sizeH1, .sizetext{
+      text-align: center!important;
+    }
+  }
+
+  @media screen and (max-width: 525px) {
+    .contactCont{
+      flex-direction: column!important;
+      gap: 0!important;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .deptEmail{
+      display: none!important;
+    }
+    
+    .emailIcon{
+      font-size: 4rem;
+    }
+  }
