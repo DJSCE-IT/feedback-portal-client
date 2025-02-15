@@ -37,7 +37,7 @@ const Footer = () => {
           </Col>
         </Row>
         <div className='text-center py-2 fw-300 fs-5'>
-          © All Copyrights Reserved.
+          © All Copyrights Reserved. DJSCE
         </div>
       </Container>
     </>
