@@ -1,7 +1,9 @@
 import axios from "axios";
 
 // const baseURL = "http://localhost:8000/api/";
-const baseURL = "https://feedbackportal-c6a2a9b8g7gvarbh.westindia-01.azurewebsites.net/api";
+// const baseURL = "https://feedbackportal-c6a2a9b8g7gvarbh.westindia-01.azurewebsites.net/api";
+const baseURL = "https://djsce-feedback-portal-server.vercel.app/api";
+
 
 const access_token = localStorage.getItem("access_token");
 
